@@ -41,7 +41,7 @@ CacheSim::AnnotationView::AnnotationView(TraceData::FileInfo fileInfo, QWidget* 
 
   m_Locale.setNumberOptions(QLocale::DefaultNumberOptions);
 
-  int maxWidth = 0;
+  int maxWidth = 1440;
 
   QFile f(m_FileInfo.m_FileName);
   if (f.open(QIODevice::ReadOnly))
